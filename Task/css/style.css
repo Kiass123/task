@@ -1,0 +1,175 @@
+/* Your existing CSS styles here */
+
+.nav-button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #555;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: #444;
+}
+
+.logout-button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #f00;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #d00;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #f1f1f1;
+  }
+  
+  .signup-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .signup-content {
+    margin: 10 0 0 500px;
+
+    display: flex;
+    width: 400px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  
+  h1 {
+    margin: 00;
+    padding: 0 0 0px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 1.1rem;
+  }
+
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-size: 1.1rem;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #222;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #222;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #15a9d6;
+}
+
+tr {
+    background-color: #b3f1ef;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.alert {
+    margin-top: 20px;
+}
